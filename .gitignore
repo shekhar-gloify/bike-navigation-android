@@ -1,10 +1,39 @@
-*.iml
-.gradle/
-/build/
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Files for the ART/DALVIK VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+build/
 app/build/
+.gradle/
+
+# Android Studio / IntelliJ IDEA
 .idea/
+*.iml
+*.iws
+*.ipr
+.navigation/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Gradle local properties & credentials
 local.properties
+
+# OS generated files
 .DS_Store
-/captures
-.externalNativeBuild
-.cxx
+Thumbs.db
+
+# Kotlin
+.kotlin/
